@@ -13,7 +13,7 @@ class TitleView: UIViewController {
     
     override func loadView() {
         let view = UIView()
-        view.frame = CGRect(x:0, y:0, width: 800, height: 600)
+        view.frame = CGRect(x: 0, y: 0, width: 800, height: 600)
         view.backgroundColor = .white
         
         self.titleLabel = UILabel(frame: CGRect(x: 50, y: 0, width: 600, height: 600))

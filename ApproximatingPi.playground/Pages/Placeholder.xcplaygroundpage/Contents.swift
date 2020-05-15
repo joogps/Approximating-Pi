@@ -11,7 +11,7 @@ class ExampleView: UIViewController {
     
     override func loadView() {
         let view = UIView()
-        view.frame = CGRect(x:0, y:0, width: 800, height: 600)
+        view.frame = CGRect(x: 0, y: 0, width: 800, height: 600)
         view.backgroundColor = .white
         
         self.centerLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 120, height: 30))
